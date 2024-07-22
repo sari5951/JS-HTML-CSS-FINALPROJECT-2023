@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="bdikaForm">
+    <input type="text" id="firstName" placeholder="שם פרטי"><br>
+<input type="text" id="lastName" placeholder="שם משפחה"><br>
+<input type="email" id="email" placeholder="מייל">
+<button type="submit">לאישור ושליחה</button>
+</form>
+<img src="./picture/תמונות home/בוקר פשוט.jpg" >
+im
+<script>
+    const dom={
+        bdikaForm:document.bdikaForm,
+       FormData: {
+        firstName:document.getElementById("firstName"),
+        lastName:document.getElementById("lastName"),
+        email:document.getElementById("email")
+
+
+
+
+        }
+    }
+dom.bdikaForm.onsubmit=(event)=>{
+    event.preventDefault();
+    localStorage.setItem("firstName",dom.FormData.firstName.value)
+    localStorage.setItem("lastName",dom.FormData.lastName.value)
+    localStorage.setItem("email",dom.FormData.email.value)
+    
+    window.location.href="./order.html";
+    dom.bdikaForm.reset();
+
+    
+
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body dir="rtl">
+
+    <div id="top_nav" class="top_nav_brunch">
+        <div id="top_nav_right">
+           
+                    <div class="top-navigation">
+                        <a href="https://api.whatsapp.com/send?phone=97229955591" class="netfree"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=97229955591" class="netfree"><i class="fab fa-instagram"></i></a>
+                      </div>
+                      
+
+                    <input type="text" id="searchInput" placeholder="מה ברצונך להזמין?" />
+                    <button onclick="performSearch()">חיפוש</button>
+                    
+                    
+                    
+                    <ul id="jumpBreakfast"></ul>
+                    <ul id="jumpLaunch"></ul>
+                    <ul id="cooke"></ul>
+                   
+                    <div id="searchResults"></div>
+                    
+                    
+                    <script>
+                        const performSearch = () => {
+                          const searchTerm = document.getElementById("searchInput").value;
+                          searchProducts(searchTerm);
+                        };
+                      </script>
+                      
+
+
+
+
+
+
+
+                    <P id="hello"></P>
+
+        </div>
+        <div id="top_list"></div>
+
+        <div id="top_nav_logo">
+            <a href="./home.html"> <img id="logo" width="80%" src="./picture/תמונות home/לוגו.png"></a>
+        </div>
+        
+
+        <div id="top_nav_left">
+            <a href="./mamila.html"> <button class="branch">ממילא</button></a>
+            <a href="./ben-yehuda.html"> <button class="branch">בן יהודה</button></a>
+            <a href="./beit-shmesh.html"> <button class="branch">בית שמש</button></a>
+          
+
+        </div>
+        <div id="list_icon">
+            <i class="fas fa-list"></i>
+          </div>
+    </div>
+    <div id="myBooton" class="hide">
+        <p>ההזמנות שלי</p>
+    </div>
+    <div id="all_branch_page" class="home_background" >
+        <img src="./picture/תמונות home/תמונה -אוכל כל הסניפים.jpg" width="100%" height="420px">
+        <img src="./picture/תמונות home/אודות ממילא.png" class="about_branch" height="500px">
+         </div>
+         <h1 class="food_menu text_center">להזמנות</h1>
+         <img src="./picture/תמונות home/כתר רימון.png" class="keter_under_tafrit" width="30%">
+        
+     <form name="bdikaForm">
+         <input type="text" id="firstName" class="Formbranch" placeholder="שם פרטי" required><br>
+     <input type="text" id="lastName" class="Formbranch" placeholder="שם משפחה" required><br>
+     <input type="email" id="email" class="Formbranch" placeholder="מייל" required>
+     <button type="submit" class="Formbranch" class="ok">לאישור ושליחה</button>
+     </form>
+     
+     <form id="userForm">
+         <input type="email" id="enterEmail" class="Formbranch" placeholder="מייל" required>
+         <button type="submit" id="oldSubmit" class="Formbranch" class="ok"> לכניסה</button>
+     </form>
+     <img id="imgEnd" src="./picture/תמונות home/תמוה סוף העמוד.jpg" width="100%" height="20%">
+     <img src="./picture/תמונות home/צילום סוף העמוד.png" width="100%" height="12%">
+     
+     
+</body>
+<script src="./order.js"></script>
+<script src="./home.js"></script>
+<script src="./branch.js"></script>
+</html>

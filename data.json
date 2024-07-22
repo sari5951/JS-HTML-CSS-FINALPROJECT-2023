@@ -1,0 +1,51 @@
+[
+    [
+        {
+            "f": "gil",
+            "l": "chan",
+            "e": "a@gmail"
+        },
+        {
+            "f": "sari",
+            "l": "chan",
+            "e": "avv@gmail"
+        }
+    ],
+    [
+        {
+            "name": "boker_chalomi",
+            "id": 1,
+            "price": 180,
+            "img": "(./picture/תמונות home/תמונה ארוחת בוקר עדכני.jpg)"
+        },
+        {
+            "name": "oker_italki",
+            "id": 2,
+            "price": 160,
+            "img": "(./picture/תמונות home/בוקר בדיקט.jpg)"
+        },
+        {
+            "name": "boker_kafri",
+            "id": 3,
+            "price": 120,
+            "img": "(./picture/תמונות home/בוקר פשוט.jpg)"
+        }
+    ]
+]{
+    "name": "קרפ צרפתי ",
+    "id": 3,
+    "price": 120,
+    "url": "./picture/תמונות home/קרפ צרפתי.jpg"
+},
+{
+    "name": " פנקייק",
+    "id": 3,
+    "price": 120,
+    "url": "./picture/תמונות home/פנקיקי.jpg"
+},
+{
+    "name": "מילקשייק",
+    "id": 3,
+    "price": 120,
+    "url": "./picture/תמונות home/מילקשייק.jpg"
+}

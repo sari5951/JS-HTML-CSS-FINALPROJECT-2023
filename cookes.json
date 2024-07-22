@@ -1,0 +1,24 @@
+[
+    {
+        "name": "בוקר חלומ",
+        "id": 1,
+        "price": 180,
+        "url": "./picture/תמונות home/תמונה ארוחת בוקר עדכני.jpg",
+        "descreption":"בוקר חלומי"
+
+    },
+    {
+        "name": "בוקר איטלקי",
+        "id": 2,
+        "price": 160,
+        "url": "./picture/תמונות home/בוקר בדיקט.jpg",
+        "descreption":"בוקר חלומי"
+    },
+    {
+        "name": "boker_kafri",
+        "id": 3,
+        "price": 120,
+        "url": "./picture/תמונות home/בוקר פשוט.jpg",
+        "descreption":"בוקר חלומי"
+    }
+]
